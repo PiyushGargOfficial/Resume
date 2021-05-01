@@ -11,18 +11,18 @@
   display: flex;
   margin-top: 20px;
   margin-bottom: 20px;
-  align-items: center;
-  justify-content: center;
-  max-width: 1300px;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 40px !important;
 }
 
 .left {
-  flex: 0.3;
+  flex: 0.25;
   background-color: #013048;
+  padding: 25px;
 }
 
 .title__section {
-  padding: 20px;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -34,6 +34,8 @@
   width: 150px;
   height: 150px;
   border-radius: 50%;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .title__name {
@@ -41,16 +43,55 @@
   margin-top: 10px;
   font-size: 20px;
   font-weight: 800;
+  letter-spacing: 3px;
 }
 
 .title__designation {
   margin-top: 5px;
   text-transform: capitalize;
   font-weight: 200;
+  font-size: 16px;
+}
+
+.seperator {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #d3d3d3;
+  height: 0.07px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.contact__section {
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+}
+
+.contact__title {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
   font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.contact__options {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.contact__options > span {
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.contact__options > span:hover {
+  cursor: pointer;
 }
 
 .right {
-  flex: 0.6;
+  flex: 0.75;
   background-color: aqua;
 }
